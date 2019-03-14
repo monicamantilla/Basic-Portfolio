@@ -1,15 +1,93 @@
-header{
-    background: #4aaaa5;
-    border: #cccccc;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body{
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-image: url(../Images/fresh_snow_@2X.png);
+}
 
+.topnav{
+    background-color: white;
+    width:100%,
+    
+}
+.header{
+    width: 200px;
+    height: 80px;
+    padding: auto;
+    background:#FF69B4;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 125px;   
+}
+
+.nav{
+    float: right;
+    background-color: white;
+    border-bottom-color: #FF69B4;
+    color: #FF69B4;
 }
 h2{
-    color: #4aaaa5;
-    font-size: 24px;
+    color: #FF69B4;
+    font-size: 24 px;
+}
+
+img{
+    float: left;
+    margin-right: 30px;
+}
+
+.subheading{
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.message{
+    background-color: white;
+    border: solid;
+    border-color: grey;
+    margin-right: 25px;
+    height: 160px;
+    margin-bottom: 25px;
+}
+
+.submit{
+    background-color: grey;
+    height:40px;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+    border: solid;
+    padding-bottom: 10px;
+
+}
+
+.footer{
+    text-align: center;
+    background-color: gray;
+    border-top: solid;
+    border-color: black;
+    height: 20px;
+    position:  relative;
+    bottom: -20px;
+    width: auto;
+
+
 }
 
 .container{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+    color: grey;
+    background-color: white;
+    padding-left: 35px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    width: 960px;
+    height: 600px;
+    
 }
