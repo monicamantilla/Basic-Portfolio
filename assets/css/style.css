@@ -2,34 +2,65 @@ body{
     background-attachment: scroll;
     background-repeat: repeat;
     background-image: url(../Images/fresh_snow_@2X.png);
+    font-family: 'Playfair Display', serif;
+    line-height: 24px;
 }
 
 .topnav{
     background-color: white;
-    width:100%,
-    
+    width:100%;
+    position: relative;
+    top: 0;
+    margin: 0;
 }
+
+h1{
+    margin: 0;
+}
+
 .header{
+    text-align: center;
     width: 200px;
     height: 80px;
-    padding: auto;
-    background:#FF69B4;
+    background:#cc92a8;
     color: white;
     font-size: 20px;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1;
+    font-family:'Playfair Display', serif;
     position: relative;
-    left: 125px;   
+    left: 142px;  
+    padding: 10px; 
 }
 
 .nav{
-    float: right;
+    position: absolute;
+    right: -750px;
+    top: 0;
     background-color: white;
-    border-bottom-color: #FF69B4;
-    color: #FF69B4;
+    border-bottom-color: #cc92a8;
+    color: #cc92a8;
 }
+ul{
+    list-style-type: none;
+}
+li{
+    float: right;
+    padding: 8px;
+    margin: 0;
+}
+a{
+    color:#cc92a8;
+    text-decoration: none;
+}
+
+a :hover{
+    color:#35274b;
+    font-weight: bold;
+
+}
+
 h2{
-    color: #FF69B4;
+    color:#cc92a8;
     font-size: 24 px;
 }
 
@@ -67,19 +98,17 @@ img{
 
 .footer{
     text-align: center;
-    background-color: gray;
+    background-color: #cc92a8;
     border-top: solid;
-    border-color: black;
-    height: 20px;
+    border-color: #cc92a8;
+    height: 40px;
     position:  relative;
     bottom: -20px;
     width: auto;
-
-
 }
 
 .container{
-    font-family: sans-serif;
+    font-family: 'Playfair Display', serif;
     color: grey;
     background-color: white;
     padding-left: 35px;
@@ -88,6 +117,53 @@ img{
     margin-top: 30px;
     padding-top: 10px;
     width: 960px;
-    height: 600px;
+    height: 960px;
     
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.boxes{
+    position: relative;
+    padding: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    float: left;
+   
+}
+
+.box1{
+    border: solid;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.box2{
+    border: solid;
+    width: 200px;
+    height: 200px;
+}
+
+.box3{
+    clear: both;
+    border: solid;
+    width: 200px;
+    height: 200px;
+}
+
+.box4{
+    border: solid;
+    width: 200px;
+    height: 200px;
+}
+
+.box5{
+    clear: both;
+    border: solid;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
 }
